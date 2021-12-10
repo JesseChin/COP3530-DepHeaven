@@ -1,0 +1,719 @@
+Package: broadcom-sta-common
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 32
+Recommends: broadcom-sta-source, module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-common_6.30.223.271-12ubuntu0.1_all.deb
+Size: 9024
+MD5sum: b3df521f309ccd2f946cda683284e3a3
+SHA1: 0541220d29534e957bc424109303c2aeb3408f95
+SHA256: 7fbd3a2f35fc2cefc29ea5a0444991478e66e4fe998892f65a4ed54e73df2ce2
+SHA512: 92cb4cf80fda509b8feb7163c38cf25075f8422ff084b688275de6cc457b2b166b8322759d8585e6bf3daa9d8bd2e34db661acd0b26ec82d64b7ad4afaff7b92
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Common files for the Broadcom STA Wireless driver
+Description-md5: a6bd57d95d48308610bc995bd8922939
+
+Package: broadcom-sta-dkms
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 14141
+Provides: broadcom-sta-modules
+Depends: dkms (>= 2.1.0.0)
+Recommends: wireless-tools
+Conflicts: broadcom-sta-modules
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-dkms_6.30.223.271-12ubuntu0.1_all.deb
+Size: 2202920
+MD5sum: 1b3127e514a8fbef7f45c0cfd81ff957
+SHA1: cfbc2873cb25501bd6273092a27d8d9c4c910631
+SHA256: d0e777693d87f4a6754c31fda596a34d1f78c4a1fdb36c3590f610e70fac0105
+SHA512: bfa5f70bbdef60f44c775d36dac23a8872700a7de16160dc47b0db6f8fc25654e306345a80204f81538da41213ab8f00498bf3dc35ef8b5ee2022facd8d9c45e
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: dkms source for the Broadcom STA Wireless driver
+Description-md5: 4c9c20d84937e0293fe598f44d785bce
+
+Package: broadcom-sta-source
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Source: broadcom-sta
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 2189
+Depends: debhelper (>= 8), make, xz-utils
+Recommends: module-assistant
+Filename: pool/multiverse/b/broadcom-sta/broadcom-sta-source_6.30.223.271-12ubuntu0.1_all.deb
+Size: 2221400
+MD5sum: 30029430f0a3afaa5cdaecba98d612b9
+SHA1: e83145f160819983363acdfbc74def27584c7b00
+SHA256: 2d8a846bf023a268bddc4d2cd5692858f1c430f2155d0d79704db01e72198a6d
+SHA512: 6f00d53584a2f774b511ab6cffccc0dd95e9696c2f889d078a794056d2b93ecf13a79a96367627e4dddfb0a03d4961e54f48cf4a3fb50fb11619be598210cecb
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Description: Source for the Broadcom STA Wireless driver
+Description-md5: 5bb170970da4a03f1c53b6f0202148ef
+
+Package: libnvidia-common-418-server
+Architecture: all
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 34
+Provides: libnvidia-common
+Conflicts: libnvidia-common
+Breaks: libnvidia-gl-418-server (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-418-server (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-common-418-server_418.226.00-0ubuntu0.20.04.1_all.deb
+Size: 8988
+MD5sum: c0dfef9ab7488c8d3db39553894772e7
+SHA1: f913def0bda3898fb0bf18b6cd9116b91c0815e4
+SHA256: e77d1d3a20ab4fc6815a978f6ab415256ee5f0fb9bf4dfef1d40338222122300
+SHA512: da8ed76380145d0151e36bc36bddef87cd503a53ebd60fd26e046882300402a7832cf26dcaeae6d3bff35a1b1219637fd8a2972d5638cac2dfe43f4e809afb11
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libnvidia-common-440-server
+Architecture: all
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-common-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-common-440-server_450.156.00-0ubuntu0.20.04.1_all.deb
+Size: 6488
+MD5sum: b54139f9484cf92f876ac087060918c7
+SHA1: 001a3726f582123515bc87301fad65d1eceb534a
+SHA256: ea5a0ef1c9a32ff991fa6fb8e8dbad52ba0dae64afda7f05cb3d014de7c4ba48
+SHA512: d72370192e5b81d58367f8b28b711717569bcfceb1f5bed906addfa6db7ad5a62ce069ca8aaeefd5272fb4a9835db45c9b542b1b52ea89bf9cb7c2ceae1948b4
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-common-450-server
+Description-md5: 9fa4d974119d7ecb5a92d0caa476d4ac
+
+Package: libnvidia-common-460-server
+Architecture: all
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: foreign
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 35
+Provides: libnvidia-common
+Conflicts: libnvidia-common
+Breaks: libnvidia-gl-460-server (<< 390.25-0ubuntu2~)
+Replaces: libnvidia-common, libnvidia-gl-460-server (<< 390.25-0ubuntu2~)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-common-460-server_460.91.03-0ubuntu0.20.04.1_all.deb
+Size: 9188
+MD5sum: d333a3f43b3786ba1b07102ba8107f39
+SHA1: fb1c50c73e00b93ab8a3c31d4db55e31420daf4d
+SHA256: b26c464b3af8d3070395fef32c63621d353504eb4b523bd2f2645b5d3eb22896
+SHA512: 8aa6d44a388797bfe0127898eb0057244805f90659dd92dff6edf94e08027db2255e6217f343ea8b26acb9bbd8eb2f2654040ab0aa0e6d0e287ef98d13e614ee
+Homepage: http://www.nvidia.com
+Description: Shared files used by the NVIDIA libraries
+Description-md5: 259c61ba4e777f5a2f1e7ee2fd1957bc
+
+Package: libnvidia-compute-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 98864
+Provides: libcuda-10.0-1, libcuda-10.1-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libcuda1 (= 418.226.00-0ubuntu0.20.04.1), libnvidia-compute, libnvidia-ml1 (= 418.226.00-0ubuntu0.20.04.1), nvidia-opencl-icd, opencl-icd
+Depends: libc6 (>= 2.7)
+Conflicts: libcuda-10.0-1, libcuda-10.1-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libnvidia-compute, nvidia-opencl-icd
+Replaces: libcuda-10.0-1, libcuda-10.1-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libnvidia-compute, libnvidia-compute-418-server (<< 390.25-0ubuntu2~), nvidia-opencl-icd
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-compute-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 20504896
+MD5sum: 53ac0428a5c0650d6becae94e2ca19ea
+SHA1: 99f5f87d787b9ed162afbfcd49cf641106449655
+SHA256: 7e0895f65d65dd701166c6a4a3f58bfbbbf979c0795df7d0e147f060ecd46bfa
+SHA512: f80ec44050ac3a3dd06bc10ae723a55e1d6ee1c78d826ee64c687e4925db6b7b9412292e082daf175dd040fa71390216e149a24365c55c1dfc8fddd823cafd48
+Homepage: http://www.nvidia.com
+Description: NVIDIA libcompute package
+Description-md5: 11b7b8b816402e282453221bd66903b4
+
+Package: libnvidia-compute-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-compute-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-compute-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6492
+MD5sum: 37f63b3a61fb06a983a0e588e910e17b
+SHA1: 7ff99c9be3b811adb276bd18e8945b3af2fb318d
+SHA256: f2524ff26f930ec866d339a977b32f5ac8505dff07efbae4152bdc3558b12859
+SHA512: 9e224842ec489f7865c86f2ee03fb0dfce973ce1e5477c6b78f660d5c061c8b98b17bf6312fd263ed3311e90d6a6667e5818c5a125a66310da983a1546c20e9c
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-compute-450-server
+Description-md5: 3bd82a03c10f2b8dd50a48954b235273
+
+Package: libnvidia-compute-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 101676
+Provides: libcuda-10.0-1, libcuda-10.1-1, libcuda-10.2-1, libcuda-11.0-1, libcuda-11.1-1, libcuda-11.2-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libcuda1 (= 460.91.03-0ubuntu0.20.04.1), libnvidia-compute, libnvidia-ml1 (= 460.91.03-0ubuntu0.20.04.1), nvidia-opencl-icd, opencl-icd
+Depends: libc6 (>= 2.7)
+Conflicts: libcuda-10.0-1, libcuda-10.1-1, libcuda-10.2-1, libcuda-11.0-1, libcuda-11.1-1, libcuda-11.2-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libnvidia-compute, nvidia-opencl-icd
+Replaces: libcuda-10.0-1, libcuda-10.1-1, libcuda-10.2-1, libcuda-11.0-1, libcuda-11.1-1, libcuda-11.2-1, libcuda-5.0-1, libcuda-5.5-1, libcuda-6.0-1, libcuda-6.5-1, libcuda-7.0-1, libcuda-7.5-1, libcuda-8.0-1, libcuda-9.0-1, libcuda-9.1-1, libcuda-9.2-1, libnvidia-compute, libnvidia-compute-460-server (<< 390.25-0ubuntu2~), nvidia-opencl-icd
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-compute-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 23268732
+MD5sum: 9b259b608e68d00ccc24c74187e65552
+SHA1: 4f8e94a164ba19a0315dcaadde951bde7eff72bb
+SHA256: 511f2d0da87adea576c75d490f9cca3d2333fe13d6e0888ef8ff58356e4fcf18
+SHA512: 2d7c60f2a5ed6802860522280a416034c28f216f3a1af92112aa0acf7bc2d878b458a53ef4f16e19fe2fdedc5c007e126120678e659c3bd4e84e446841501bbc
+Homepage: http://www.nvidia.com
+Description: NVIDIA libcompute package
+Description-md5: 11b7b8b816402e282453221bd66903b4
+
+Package: libnvidia-decode-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 4310
+Provides: libnvidia-decode
+Depends: libnvidia-compute-418-server (= 418.226.00-0ubuntu0.20.04.1), libc6 (>= 2.1.3), libx11-6, libxext6
+Conflicts: libnvidia-decode
+Replaces: libnvidia-decode
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-decode-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 1294184
+MD5sum: e0f968c48d7c52ed7a3e9613ef9a0e3c
+SHA1: 320688628fe59a573c7f92b8264e31849d00e68b
+SHA256: aea7620a5958eebd69b7cea76d0c9afebdccde424754bb77cabf4d18c372d6fa
+SHA512: 3d58bd655f61397da97683a1016c6fa4142daa231f14176f1227d4b781a3d688750aa58f7abf42a2989bed207d3a89f297b13c1c2f8248e82c2d4c415c790440
+Homepage: http://www.nvidia.com
+Description: NVIDIA Video Decoding runtime libraries
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+
+Package: libnvidia-decode-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-decode-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-decode-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6500
+MD5sum: d58a351eddc4ea85a863a40e2d38e193
+SHA1: 9e5644216d78cac6f1903c3e15e4c9539464eed0
+SHA256: f133f53b7d9db44af28d6d97dd9859587a993ad05e4f26bcbb437eb85369f3d2
+SHA512: 9739f68d4654f741c1634551c10ee7aad8be8f220f5306b3122f3cef9345ec947dc877c281b06208c45bbe06e23a10a6300d5dc6a1fdd9082c6f09895051b355
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-decode-450-server
+Description-md5: aebf1b7f76555aaf62c7986f70907dd4
+
+Package: libnvidia-decode-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 5539
+Provides: libnvidia-decode
+Depends: libnvidia-compute-460-server (= 460.91.03-0ubuntu0.20.04.1), libc6 (>= 2.7), libx11-6, libxext6
+Conflicts: libnvidia-decode
+Replaces: libnvidia-decode
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-decode-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 1296612
+MD5sum: 3fc101427ac66ea3b55dc471b8739866
+SHA1: bd83667a21c5e2237adfbb831cfa402919ead4ba
+SHA256: 4849ae6180df429276ef367020660c87b04430a222ed75d23cbea808b296348c
+SHA512: 89ec950dd846fd95bc5e0e895bba5fd6fa4a4f167de27bde5b39af7c2076c7215bf125e1f3b0c7718ee6ca54b9bd70d410516b4870be9d0a9b57e400b0c18dc0
+Homepage: http://www.nvidia.com
+Description: NVIDIA Video Decoding runtime libraries
+Description-md5: 82c3a05b45f86380632898c9b339df7a
+
+Package: libnvidia-encode-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 157
+Provides: libnvidia-encode
+Depends: libc6 (>= 2.1.3), libnvidia-decode-418-server
+Conflicts: libnvidia-encode
+Replaces: libnvidia-encode
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-encode-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 47448
+MD5sum: fc4b38ba490509189b6274ccca49a56a
+SHA1: 130374bbc35a1dc7a26a85c2d994899a354392c2
+SHA256: 93561541e38570676d06404b4479321ff3884fa9f9f6664aca1316eff50e1179
+SHA512: 52ba71fc31169e89d39e0d94febb13dc436e7733edb0834f36125ef8685f58e7c47f56e05ca6376e0bb899e265b904c274e84c45c325032ac6ce57defe1ed3fe
+Homepage: http://www.nvidia.com
+Description: NVENC Video Encoding runtime library
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+
+Package: libnvidia-encode-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-encode-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-encode-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6496
+MD5sum: d2969af916d96c6e6ff604da2608341f
+SHA1: e79c4981cab42629287c04c02e5676a5fc3dc7ee
+SHA256: 5ee139a1eaa600b44f9f0d4d15416fb592fd9508d943f53d8d261b0ce24c0189
+SHA512: fbf2ad34ced2a83c7a65f6f04e061cb1dfd368991bdf590bf668def6be6c149a13bbcd8d99d4501172687738a59c23dddfde03343ab5fae506b49fcb021b2ab7
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-encode-450-server
+Description-md5: c7d1e5833bcf233fbe68d39d4aa7a546
+
+Package: libnvidia-encode-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 146
+Provides: libnvidia-encode
+Depends: libc6 (>= 2.1.3), libnvidia-decode-460-server
+Conflicts: libnvidia-encode
+Replaces: libnvidia-encode
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-encode-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 42124
+MD5sum: f031cce1467a131dd14a4939e782dd82
+SHA1: f6101d4e7a00d5e7e574870a26be076cb7b67de7
+SHA256: 57093b05b61008370ea6bc66674920ec3f43a3b90a70572020cdef1098375406
+SHA512: a9fe3baca40325a2879e8c2560970d390f7467839239386d8afac40919de4f84076b5142f4e0c29dd2e8a89d009f193e6369e05fe80555af3acfdb0152018688
+Homepage: http://www.nvidia.com
+Description: NVENC Video Encoding runtime library
+Description-md5: 21b4191ea88e49a7e948a2b89cfed901
+
+Package: libnvidia-extra-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-extra-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-extra-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6492
+MD5sum: 92a4f0e5371f0b92ae1b467b3a33d8c4
+SHA1: 6473e68f7d0fa3bdd3e08316c7a8aeb8505088dd
+SHA256: 15f1f4339abc3147a1b779290a19aaad27685d211102d4c00a45b5a26fa3474c
+SHA512: 8f79aad1283ab2b2b10bf9229d1effc491559fcd11c1d649ed03c01ab83e28b5d134a64fc93311d4b0158aa307a78976f31633f98408623a5171fd9ac913ad45
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-extra-450-server
+Description-md5: 6ac988d902fba392b10a5278636a1d52
+
+Package: libnvidia-extra-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 119
+Provides: libnvidia-extra
+Depends: libc6 (>= 2.7)
+Conflicts: libnvidia-extra
+Breaks: libnvidia-common-460-server (<< 440.64-0ubuntu3~)
+Replaces: libnvidia-common-460-server (<< 440.64-0ubuntu3~), libnvidia-extra
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-extra-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 43096
+MD5sum: cd778bf1e22e3db6716f8be7122912e5
+SHA1: 77a33238f8dc20985ca82d9cfeef49e12146d0fe
+SHA256: 84bbfff364b955fa4b002f0d4053a1fef7dcdb5f975974d44bf7e391e8ffc974
+SHA512: 87ce98c2d4023d15487457854189f898ccfacf686ad2110e4a56463e99702aefb07d97179c52b39fb8ae3f76f614a593db5c70eb231716c624391dd355832886
+Homepage: http://www.nvidia.com
+Description: Extra libraries for the NVIDIA Server Driver
+Description-md5: d919c13960893adb9b27fa15ab4b33a4
+
+Package: libnvidia-fbc1-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 132
+Provides: libnvidia-fbc1
+Depends: libc6 (>= 2.3.6-6~), libgl1, libx11-6, libxext6
+Conflicts: libnvidia-fbc1
+Replaces: libnvidia-fbc1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-fbc1-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 40300
+MD5sum: 704e6d95d470db6e2fe14049fdb317c8
+SHA1: ffec0933703c2de4830568bb96ae770299917be7
+SHA256: 82fbda1aa976e3c3389ad0c396b4c93e7edc2221a385ba3bb6d38deb7c9b85b6
+SHA512: bc4323d55d3c74ac633025c0d79d54821342588216321204615be0c3604dc49c607d3c4c54a00ddea010a16052cf2aa7d8e345258c1dbefbd37da0a7342b0799
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL-based Framebuffer Capture runtime library
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+
+Package: libnvidia-fbc1-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-fbc1-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-fbc1-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6496
+MD5sum: 751e575409386f63c4988f3af70eeaca
+SHA1: fe5b17eb3577d15631417fd5a18436436ec43e3a
+SHA256: 744e50ade86dfd16234a4613763f6054459159c79c777375c151bdd5b7505463
+SHA512: 1e5ac552aa3dd5fd8a856bd0113a8be62cf66454f2b54a19acd5ea91200b3138e2b8ac0475ab2ea08b13e9fcbdddd4b8904036d97308fd8771ceefb5241c2c6e
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-fbc1-450-server
+Description-md5: 07bb0e86f86ddad7354ada0a8c6da8cf
+
+Package: libnvidia-fbc1-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 154
+Provides: libnvidia-fbc1
+Depends: libc6 (>= 2.7), libgl1, libx11-6, libxext6
+Conflicts: libnvidia-fbc1
+Replaces: libnvidia-fbc1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-fbc1-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 48508
+MD5sum: c7ba82e2403a159de220d8e3b960b8e8
+SHA1: 48b07569db7ef6f25756707e48991f33f820d243
+SHA256: 05ab893cfd16b529c9a00c76deb173c9492842772073cf742b7c36844f99c31b
+SHA512: 842bdfe589e16e98c3c255a6b5a1bb2119c52c7d6ec8781a29ebfbf29da1f052012b7b1f90bdb1fa82a12905f2d42d1f1cc71dc6d1a23d773e267852f5f0c4ff
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL-based Framebuffer Capture runtime library
+Description-md5: 19123a53d351a2e540ca869d1e74f9d2
+
+Package: libnvidia-gl-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 69179
+Provides: libegl-vendor, libglx-vendor, libnvidia-gl
+Depends: libnvidia-common-418-server, libc6 (>= 2.3.6-6~), libx11-6, libxext6
+Conflicts: libnvidia-gl
+Replaces: libnvidia-gl, nvidia-384 (<< 390.25), nvidia-390 (<< 390.25-0ubuntu1)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-gl-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 17020672
+MD5sum: 8baf40a0168b701f89bc24483a8e1dca
+SHA1: 5ccc27a1260b72d611a46bdf67091cf286fee9c1
+SHA256: 6499c4f399ae2c18575bb8b7b92b638765fc907da4dccda4f81714946e9726ae
+SHA512: 9fd4fa511ffc7e9e3ea3950a83835bde5b75f24245362df3417a45cb0ddde453197b4e98103be721dc3ba3c72c6592fa853916e031c5ab301bb4ff4d8dbcb7b1
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+Description-md5: d899ab089124230e29489e7dcc9f137a
+
+Package: libnvidia-gl-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-gl-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-gl-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6488
+MD5sum: 9619c13f01343a409ed05e0c0acdc3f4
+SHA1: ed11b42a0dfd72ae236026f40bb364f7c3bc17bf
+SHA256: 017b4b94a2d43e07baf7d5421bfe144a77f4c4bafa72bdaaa05204bf539c6d36
+SHA512: cd4aec217f4c493ef2f4a6ef751fb082ca610dfc64f1d4b5be8de4d43dfc8c19e9d2a991e036bc98208061b67b635cdd6db5427ebcd423f45db1c7cf3d501f6b
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-gl-450-server
+Description-md5: 6c084b544e931c3def50ccbcc0391da6
+
+Package: libnvidia-gl-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 71452
+Provides: libegl-vendor, libglx-vendor, libnvidia-gl
+Depends: libnvidia-common-460-server, libc6 (>= 2.11), libx11-6, libxext6
+Conflicts: libnvidia-gl
+Replaces: libnvidia-gl, nvidia-384 (<< 390.25), nvidia-390 (<< 390.25-0ubuntu1)
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-gl-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 19105820
+MD5sum: 8bb753ff1a839ae1ebec52906d027310
+SHA1: 95202e98f84e9ecc14413e45201e1a07bc6b390b
+SHA256: 0095d59ddd2ad6870dd8a772222bf334e4aed306fdd05f515933c12d6cbd7886
+SHA512: 8e03d55522a0c43e6fc08d4506c60be98c8694cbce2439b3fcb6e1e5ea69c5d11c4df49094ae4f91ae8dbd66409d687c1bd50e7c2c4cb74b796ee864797e478c
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD
+Description-md5: d899ab089124230e29489e7dcc9f137a
+
+Package: libnvidia-ifr1-418-server
+Architecture: i386
+Version: 418.226.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-418-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 212
+Provides: libnvidia-ifr1
+Depends: libnvidia-gl-418-server, libx11-6, libc6 (>= 2.3.6-6~), libgl1
+Conflicts: libnvidia-ifr1
+Replaces: libnvidia-ifr1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-418-server/libnvidia-ifr1-418-server_418.226.00-0ubuntu0.20.04.1_i386.deb
+Size: 60728
+MD5sum: b9ba010a8b4b48ab2d4242c9da528448
+SHA1: 0c77f3c34ea2fba23afff9db57064fbbc5503554
+SHA256: 378248bb4633853fb9bcc2943781baa6e6d3d371601831e8a499d44a32b23014
+SHA512: f27ee2bcf41c6f75bda10746f62f49a191b7455d9a50ddf3725d699210a4462326e0cefe2c4445a44414c70c082660cccb9c82b57a0ad3f3b15c8c8da8aeb11f
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL-based Inband Frame Readback runtime library
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+
+Package: libnvidia-ifr1-440-server
+Architecture: i386
+Version: 450.156.00-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-450-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 19
+Depends: libnvidia-ifr1-450-server
+Filename: pool/multiverse/n/nvidia-graphics-drivers-450-server/libnvidia-ifr1-440-server_450.156.00-0ubuntu0.20.04.1_i386.deb
+Size: 6500
+MD5sum: 8af1fa40d511ddca5ca1676a17a01599
+SHA1: fe0a3461b102f84d4abb23a6ef136bae456bd729
+SHA256: 3dbfc7fb1f9dbc8628e14df55dc9788fa138eb650b8621d78f80fad0e6cdf06a
+SHA512: c6d21c628ee7c89048ef7ef69cd5b95cf12537997a3ed3c4f99caa22923f92e1e1df776868a81a286d6f97efad9642852d886222e1a9cb7beee87c8a8d6c559d
+Homepage: http://www.nvidia.com
+Description: Transitional package for libnvidia-ifr1-450-server
+Description-md5: 5e0c8a5a911e871b6de78b9e99c54afa
+
+Package: libnvidia-ifr1-460-server
+Architecture: i386
+Version: 460.91.03-0ubuntu0.20.04.1
+Multi-Arch: same
+Priority: optional
+Section: multiverse/libs
+Source: nvidia-graphics-drivers-460-server
+Origin: Ubuntu
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 270
+Provides: libnvidia-ifr1
+Depends: libnvidia-gl-460-server, libx11-6, libc6 (>= 2.3.6-6~), libgl1
+Conflicts: libnvidia-ifr1
+Replaces: libnvidia-ifr1
+Filename: pool/multiverse/n/nvidia-graphics-drivers-460-server/libnvidia-ifr1-460-server_460.91.03-0ubuntu0.20.04.1_i386.deb
+Size: 69092
+MD5sum: 8ad9fa7906cd0ab6fd043c1f23f13b1e
+SHA1: 6c2d7bef90724fd9b8ae84944f4cb7fbdee2c6ea
+SHA256: cac7ff8511c677fb9e4b7973f7080482c45c7bbb96e2f32549ccd330d68c510e
+SHA512: 52970f01b3fc7179665748984baec1e6b617e5264d2782c0aea9eaeb87d459a8efd39a54edfae7cc870e3ee0449b330d4b61499d43d1ba4c5b86d8f48c0ba576
+Homepage: http://www.nvidia.com
+Description: NVIDIA OpenGL-based Inband Frame Readback runtime library
+Description-md5: ed00f275619e715136fe0176e6f7fd69
+
+Package: virtualbox-guest-dkms
+Architecture: all
+Version: 6.1.16-dfsg-6~ubuntu1.20.04.2
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7483
+Provides: virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-dkms_6.1.16-dfsg-6~ubuntu1.20.04.2_all.deb
+Size: 665872
+MD5sum: f1c13f2acf23612bfeaca4a1ebbac015
+SHA1: d9dfa54cafdaa7f5aca1aeadb956608dceb0da7f
+SHA256: 3af97e3de38a4ca552bf216af72653c0220cf237364c9cc160c640bae345ccd4
+SHA512: 08ce6f93e2ec65e250cf8074ae409b6f42f417529f09dda46172f3dcf5983eed0bb8c4b963faeb023873dc8bcd227ced5ec73aaffbc86674ee369276da454218
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
+
+Package: virtualbox-guest-dkms-hwe
+Architecture: all
+Version: 6.1.16-dfsg-6ubuntu1.20.04.2
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 7485
+Provides: virtualbox-guest-dkms, virtualbox-guest-modules
+Depends: dkms (>= 2.1.0.0)
+Conflicts: virtualbox-guest-dkms
+Replaces: virtualbox-guest-dkms
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-dkms-hwe_6.1.16-dfsg-6ubuntu1.20.04.2_all.deb
+Size: 665504
+MD5sum: 318cf4e70d896a3eccdf9c303e2c24d7
+SHA1: 47ba87097507de1895f03f7b70baf0cac8043f7c
+SHA256: b9be45054429f0c62ed451e04a1577b325ad246fef8f4c92e04f11794456f2c3
+SHA512: 922c84df0541bb1c7c96ae04b59f5cea1f899f30ff904e79d3c96df1659462116e52220cb8fb133460a40a5cba6f35924b4a53f23ad7298c229c8eec1e076023
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source for dkms
+Modaliases: vboxguest(pci:v000080EEd0000CAFEsv00000000sd00000000bc*sc*i*)
+Description-md5: 5da76c89e724bb98d7f67d251fa8de7d
+
+Package: virtualbox-guest-source
+Architecture: all
+Version: 6.1.16-dfsg-6~ubuntu1.20.04.2
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1182
+Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
+Filename: pool/multiverse/v/virtualbox/virtualbox-guest-source_6.1.16-dfsg-6~ubuntu1.20.04.2_all.deb
+Size: 1109844
+MD5sum: e8b08d538c288f9a54aeba0e7dcdb12b
+SHA1: e66f9bc7fcb9553de50352d14f7643c2c05c4697
+SHA256: 9330ca42c42916f130018aacd4e26c3c6e7227a6109ff85e9c2095268ef49e91
+SHA512: 102733f953219b49118b708f58ecc1e7fd831c6a04ae6bcf3f5548f9107c80b7298a4ec0faf4689024dde5d6e41c7aba3b896b690012634881e6d6acfe24e832
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
+Package: virtualbox-guest-source-hwe
+Architecture: all
+Version: 6.1.16-dfsg-6ubuntu1.20.04.2
+Priority: optional
+Section: multiverse/kernel
+Source: virtualbox-hwe
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1186
+Provides: virtualbox-guest-source
+Depends: build-essential, bzip2, debhelper-compat (= 12), kbuild, module-assistant
+Conflicts: virtualbox-guest-source
+Replaces: virtualbox-guest-source
+Filename: pool/multiverse/v/virtualbox-hwe/virtualbox-guest-source-hwe_6.1.16-dfsg-6ubuntu1.20.04.2_all.deb
+Size: 1111240
+MD5sum: e5f687e80589cd1742d002db37c76db6
+SHA1: 13aeb3d277eb435f1dfdb5baa2d29faad6622441
+SHA256: ad8d133a695aa5c6ad16c23cee300c364f7da60ba3419f0e49a578e75a7c9c8c
+SHA512: b38d282747dc253ab1a1e50d3846a5938e919ec13c10fc4fea930180232d0d940a1d5b3d5ebead57974e65fc0a802ff782687d872905345c498ed012c692d371
+Homepage: https://www.virtualbox.org
+Description: x86 virtualization solution - guest addition module source
+Description-md5: 4e8ea50b26a8f2bc5f4e7ef943a32a06
+
